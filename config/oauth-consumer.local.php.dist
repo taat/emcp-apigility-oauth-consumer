@@ -1,0 +1,17 @@
+<?php
+return array(
+    'oauth-client'=> array(
+        'withings' => array(
+            'consumer_key' => 'YOUR_CONSUMER_KEY',
+            'consumer_secret' => 'YOUR_CONSUMER_SECRET',
+            'request_token_url' => 'https://oauth.withings.com/account/request_token', #GET
+            'authorize_url' => 'https://oauth.withings.com/account/authorize',
+            'access_token_url' => 'https://oauth.withings.com/account/access_token',
+        ),
+        'twitter' => array(
+            'consumer_key' => 'YOUR_CONSUMER_KEY',
+            'consumer_secret' => 'YOUR_CONSUMER_SECRET',
+            'request_token_url' => 'http://api.twitter.com/oauth/request_token', #POST
+        ),
+    )
+);
